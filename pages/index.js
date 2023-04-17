@@ -138,13 +138,13 @@ const App = () => {
   </button>
   {isDropdownOpen && (
     <div className="absolute top-[11px] left-[-5.5px] w-[48.15px] h-[29px] bg-white rounded-[3.48px] shadow-md">
-      <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-midnightblue focus:outline-none">
-        English
-      </button>
-      <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-lightsteelblue focus:outline-none">
-        Kinyarwanda
-      </button>
-    </div>
+     <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-midnightblue focus:outline-none">
+      English
+     </button>
+     <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-lightsteelblue focus:outline-none">
+      Kinyarwanda
+     </button>
+  </div>
   )}
 </div>
 
