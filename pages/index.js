@@ -86,7 +86,7 @@ const App = () => {
                  name="name"
                  value={name}
                  onChange={handleNameChange}
-                 className="absolute top-[20.45px] left-[53.8px] w-[165.65px] h-[25.3px] bg-transparent border-[1px] border-solid border-midnightblue rounded-[3px] px-[10px] py-[5px] outline-none"
+                 className="absolute top-[0px] left-[0px] leading-[13.87px] inline-block w-[53.8px]"
              />
               <label htmlFor="phoneNumber" className="absolute top-[67.25px] left-0 leading-[13.87px] inline-block w-[83.53px]">
                Phone Number*
@@ -97,7 +97,7 @@ const App = () => {
                  name="phoneNumber"
                  value={phoneNumber}
                  onChange={handlePhoneNumberChange}
-                 className="absolute top-[84.17px] left-[83.53px] w-[135.92px] h-[25.3px] bg-transparent border-[1px] border-solid border-midnightblue rounded-[3px] px-[10px] py-[5px] outline-none"
+                 className="absolute top-[67.25px] left-0 leading-[13.87px] inline-block w-[83.53px]"
                />
               </div>
             <div className="absolute top-[298.02px] left-[24.78px] rounded-[35.39px] bg-midnightblue box-border w-[219.45px] h-[29.73px] border-[0.7px] border-solid border-midnightblue" />
@@ -118,7 +118,7 @@ const App = () => {
         onClick={handleDropdownClick}
         className="absolute top-[42px] left-[299.85px] w-[48.15px] h-[38.52px] text-[5.57px] focus:outline-none"
       >
-        <div className="absolute top-[15.2px] left-[0px] rounded-[3.48px] bg-white w-[48.15px] h-[23.31px]" />
+        {/* <div className="absolute top-[15.2px] left-[0px] rounded-[3.48px] bg-white w-[48.15px] h-[23.31px]" /> */}
         <div className="absolute top-[0px] left-[5.57px] w-[41.05px] h-[34.97px]">
           <img
             className="absolute top-[0px] left-[31.93px] w-[9.12px] h-[9.12px] object-cover"
