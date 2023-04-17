@@ -138,6 +138,10 @@ const App = () => {
               </button>
             </div>
           )}
+          {!isDropdownOpen && (
+  <div className="hidden"></div>
+)}
+
         </div>
       </button>
     </div>
