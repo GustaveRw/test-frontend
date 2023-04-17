@@ -114,35 +114,33 @@ const App = () => {
           </div>
         </div>
         <div className="relative">
-  <button
-    onClick={handleDropdownClick}
-    className="absolute top-[42px] left-[299.85px] w-[48.15px] h-[38.52px] text-[5.57px] focus:outline-none"
-  >
-    <div className="absolute top-[15.2px] left-[0px] rounded-[3.48px] bg-white w-[48.15px] h-[23.31px]" />
-    <div className="absolute top-[0px] left-[5.57px] w-[41.05px] h-[34.97px]">
-      <img
-        className="absolute top-[0px] left-[31.93px] w-[9.12px] h-[9.12px] object-cover"
-        alt=""
-        src="/world-1-1@2x.png"
-      />
-      <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
-        Select language
+      <button
+        onClick={handleDropdownClick}
+        className="absolute top-[42px] left-[299.85px] w-[48.15px] h-[38.52px] text-[5.57px] focus:outline-none"
+      >
+        <div className="absolute top-[15.2px] left-[0px] rounded-[3.48px] bg-white w-[48.15px] h-[23.31px]" />
+        <div className="absolute top-[0px] left-[5.57px] w-[41.05px] h-[34.97px]">
+          <img
+            className="absolute top-[0px] left-[31.93px] w-[9.12px] h-[9.12px] object-cover"
+            alt=""
+            src="/world-1-1@2x.png"
+          />
+          <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
+            Login
+          </button>
+          {isDropdownOpen && (
+            <div className="absolute top-[11px] left-[-5.5px] w-[48.15px] h-[29px] bg-white rounded-[3.48px] shadow-md">
+              <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-midnightblue focus:outline-none">
+                English
+              </button>
+              <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-lightsteelblue focus:outline-none">
+                Kinyarwanda
+              </button>
+            </div>
+          )}
+        </div>
       </button>
     </div>
-  </button>
-  {isDropdownOpen && (
-     <div className="absolute top-[11px] left-[-5.5px] w-[48.15px] h-[29px] bg-white rounded-[3.48px] shadow-md">
-     <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-midnightblue focus:outline-none">
-       English
-     </button>
-     <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-lightsteelblue focus:outline-none">
-       Kinyarwanda
-     </button>
-   </div>
-  )} 
-
-</div>
-
 
         <div className="absolute top-[959px] left-[95.9px] w-[216.62px] h-[76.09px] text-right">
           <img
