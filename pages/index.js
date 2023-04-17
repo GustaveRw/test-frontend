@@ -86,7 +86,7 @@ const App = () => {
                  name="name"
                  value={name}
                  onChange={handleNameChange}
-                 className="absolute top-[20.45px] left-[53.8px] w-[165.65px] h-[25.3px] bg-transparent  px-[10px] py-[5px] outline-none"
+                 className="absolute top-[20.45px] left-[0px] w-[165.65px] h-[25.3px] bg-transparent  px-[10px] py-[5px] outline-none"
              />
               <label htmlFor="phoneNumber" className="absolute top-[67.25px] left-0 leading-[13.87px] inline-block w-[83.53px]">
                Phone Number*
@@ -97,7 +97,7 @@ const App = () => {
                  name="phoneNumber"
                  value={phoneNumber}
                  onChange={handlePhoneNumberChange}
-                 className="absolute top-[84.17px] left-[83.53px] w-[135.92px] h-[25.3px] bg-transparent px-[10px] py-[5px] outline-none"
+                 className="absolute top-[84.17px] left-[opx] w-[135.92px] h-[25.3px] bg-transparent px-[10px] py-[5px] outline-none"
                />
               </div>
             <div className="absolute top-[298.02px] left-[24.78px] rounded-[35.39px] bg-midnightblue box-border w-[219.45px] h-[29.73px] border-[0.7px] border-solid border-midnightblue" />
