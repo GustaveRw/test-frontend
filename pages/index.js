@@ -125,8 +125,16 @@ const App = () => {
             alt=""
             src="/world-1-1@2x.png"
           />
+          {isDropdownOpen ? (
+            <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
+            Select Language
+          </button>
+          ) : (
           <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
             Login
+          </button>
+          )}
+          </div>
           </button>
           {isDropdownOpen && (
             <div className="absolute top-[11px] left-[-5.5px] w-[48.15px] h-[29px] bg-white rounded-[3.48px] shadow-md">
@@ -139,8 +147,6 @@ const App = () => {
             </div>
           )}
         </div>
-      </button>
-    </div>
 
         <div className="absolute top-[959px] left-[95.9px] w-[216.62px] h-[76.09px] text-right">
           <img
@@ -218,8 +224,9 @@ const App = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+          }
+
 
 export default App;
 
