@@ -127,7 +127,7 @@ const App = () => {
           />
           {isDropdownOpen ? (
             <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
-            Select Language
+            Select
           </button>
           ) : (
           <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
