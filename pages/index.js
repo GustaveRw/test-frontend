@@ -125,15 +125,9 @@ const App = () => {
             alt=""
             src="/world-1-1@2x.png"
           />
-          {isDropdownOpen ? (
-            <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
-            Select
-          </button>
-          ) : (
           <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
             Login
           </button>
-          )}
           </div>
           </button>
           {isDropdownOpen && (
