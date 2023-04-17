@@ -82,7 +82,7 @@ const App = () => {
                  type="text"
                  id="name"
                  name="name"
-                 value={name}
+                //  value={name}
                  onChange={handleNameChange}
                  className="absolute top-[20.45px] left-[53.8px] w-[165.65px] h-[25.3px] bg-transparent border-[1px] border-solid border-midnightblue rounded-[3px] px-[10px] py-[5px] outline-none"
              />
