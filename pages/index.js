@@ -125,13 +125,11 @@ const App = () => {
             alt=""
             src="/world-1-1@2x.png"
           />
-          <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
+          <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none">
             Login
           </button>
-          </div>
-          </button>
           {isDropdownOpen && (
-            <div className="absolute top-[11px] left-[-5.5px] w-[48.15px] h-[29px] bg-white rounded-[3.48px] shadow-md">
+            <div className="absolute top-[11px] left-[-5.5px] w-[53px] h-[29px] bg-white rounded-[3.48px] shadow-md">
               <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-midnightblue focus:outline-none">
                 English
               </button>
@@ -141,6 +139,8 @@ const App = () => {
             </div>
           )}
         </div>
+      </button>
+    </div>
 
         <div className="absolute top-[959px] left-[95.9px] w-[216.62px] h-[76.09px] text-right">
           <img
