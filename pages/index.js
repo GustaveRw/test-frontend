@@ -126,9 +126,14 @@ const App = () => {
         src="/world-1-1@2x.png"
       />
       {isDropdownOpen ? (
-        <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
-          Select language
-        </button>
+        <div className="dropdown absolute top-[38px] left-[-12px] w-[80px] bg-white rounded-md shadow-md">
+          <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-midnightblue focus:outline-none">
+            English
+          </button>
+          <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-lightsteelblue focus:outline-none">
+            Kinyarwanda
+          </button>
+        </div>
       ) : (
         <button className="absolute top-[2px] left-[2.57px] text-[6.59px] leading-[6.89px] capitalize text-right inline-block w-5 focus:outline-none cursor-pointer">
           Login
@@ -136,16 +141,6 @@ const App = () => {
       )}
     </div>
   </button>
-  {isDropdownOpen && (
-    <div className="absolute top-[11px] left-[-5.5px] w-[48.15px] h-[29px] bg-white rounded-[3.48px] shadow-md">
-     <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-midnightblue focus:outline-none">
-      English
-     </button>
-     <button className="w-full h-[14.5px] text-[6.59px] leading-[6.89px] text-lightsteelblue focus:outline-none">
-      Kinyarwanda
-     </button>
-  </div>
-  )}
 </div>
 
         <div className="absolute top-[959px] left-[95.9px] w-[216.62px] h-[76.09px] text-right">
